@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    all: unset;
+}
+img{
+    height: 130px;
+    width: 130px;
+    cursor: pointer;
+}
+.container{
+    background-color: rgb(190, 176, 176);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container ,.choices{
+    margin: 35px;
+}
+.container ,.choices img{
+    padding: 30px 20px;
+}
+#score{
+    border: 2px solid black;
+    padding: 7px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 25px;
+}
+#result{
+    font-size: 20px;
+}
+.winner{
+    font-size: 50px;   
+    color: rgb(5, 216, 64);
+    text-shadow: 2.5px 1px black ;
+}
